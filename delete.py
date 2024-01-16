@@ -2,10 +2,10 @@ import streamlit as st
 import pyodbc
 
 # Defina os detalhes da conexão
-server = 'DESKTOP-H1RTIJ4\SQLEXPRESS'
-database = 'vagas'
-username = 'mateus'
-password = 'mateusdb1234'
+server = 'servidor'
+database = 'banco'
+username = 'usuario'
+password = 'senha'
 driver = '{ODBC Driver 17 for SQL Server}'
 
 # Crie a string de conexão
